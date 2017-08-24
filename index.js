@@ -21,8 +21,7 @@ module.exports = function(options, modified, total, next) {
             //html入口文件
             if (/\.(html|ftl|tpl)/.test(file.rExt) && isEntryFile) {
                 //gfis相关目录变量
-                var re = /<script[\s\S]*?>/im;
-                content = content.replace(/(<script[\s\S]*?)>/im, options.gfisGlobalVarStr + '\r\n$1');
+                content = content.replace(/(<script[\s\S]*?>)/im, options.gfisGlobalVarStr + '\r\n$1');
                 file.setContent(content);
             }
 
