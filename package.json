@@ -1,6 +1,6 @@
 {
     "name": "fis3-deploy-gfe-global-val",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "增加gfis全局变量",
     "main": "index.js",
     "repository": {
