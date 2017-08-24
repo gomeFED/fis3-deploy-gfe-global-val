@@ -1,0 +1,22 @@
+{
+    "name": "fis3-deploy-gfe-global-val",
+    "version": "1.0.0",
+    "description": "增加gfis全局变量",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gomeFED/fis3-deploy-gfe-global-val.git"
+    },
+    "keywords": [
+        "gfe",
+        "fis3",
+        "script",
+        "place"
+    ],
+    "author": "gomeFED",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gomeFED/fis3-deploy-gfe-global-val/issues"
+    },
+    "homepage": "https://github.com/gomeFED/fis3-deploy-gfe-global-val#readme"
+}
